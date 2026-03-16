@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanSafe</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f5f7fb;
+      color:#333;
+    }
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    header h1{
+      margin:0;
+      font-size:36px;
+    }
+
+    nav{
+      margin-top:10px;
+    }
+
+    nav a{
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .hero{
+      padding:80px 20px;
+      text-align:center;
+      background:#2563eb;
+      color:white;
+    }
+
+    .hero h2{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .container{
+      padding:40px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .features{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:10px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3{
+      margin-top:0;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    button{
+      padding:12px 25px;
+      border:none;
+      border-radius:6px;
+      background:white;
+      color:#2563eb;
+      font-weight:bold;
+      cursor:pointer;
+      margin-top:15px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>UrbanSafe</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#sobre">Sobre el proyecto</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <h2>Seguridad urbana al alcance de tu mano</h2>
+  <p>UrbanSafe es una aplicación móvil que permite reportar situaciones de riesgo en tiempo real utilizando geolocalización y comunicación con autoridades.</p>
+  <button>Descargar App</button>
+</section>
+
+<section class="container" id="funciones">
+  <h2>Funciones principales</h2>
+
+  <div class="features">
+
+    <div class="card">
+      <h3>📍 Reportes con geolocalización</h3>
+      <p>Los usuarios pueden reportar incidentes o situaciones de riesgo directamente desde su ubicación.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚨 Alertas en tiempo real</h3>
+      <p>Recibe notificaciones sobre eventos peligrosos cercanos a tu ubicación.</p>
+    </div>
+
+    <div class="card">
+      <h3>👮 Conexión con autoridades</h3>
+      <p>La aplicación permite enviar reportes directamente a entidades de seguridad.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="container" id="sobre">
+  <h2>Sobre UrbanSafe</h2>
+  <p>
+  UrbanSafe es un proyecto desarrollado para mejorar la seguridad en las ciudades mediante el uso de tecnología móvil, geolocalización y comunicación rápida con las autoridades. 
+  Nuestro objetivo es permitir que los ciudadanos puedan reportar situaciones peligrosas y ayudar a construir comunidades más seguras.
+  </p>
+</section>
+
+<section class="container" id="contacto">
+  <h2>Contacto</h2>
+  <p>Correo: nicolascardenasr024@gmail.com</p>
+  <p>Ciudad: Bogotá, Colombia</p>
+</section>
+
+<footer>
+  <p>© 2026 UrbanSafe - Proyecto académico</p>
+</footer>
+
+</body>
+</html>
